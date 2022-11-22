@@ -12,6 +12,7 @@ function Konyv(props) {
             <h3>Cím: {props.konyvAdat.cim}</h3>
             <p>Szerző: {props.konyvAdat.szerzo}</p>
             <span>Ár: {props.konyvAdat.ar} FT </span>
+            <img src={props.konyvAdat.kep}></img>
             <button onClick={kosarba}>Kosárba</button>
         </div>
     );

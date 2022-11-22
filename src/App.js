@@ -7,21 +7,21 @@ const Konyveim = [
     cim:"Malveil",
     szerzo:"Robert Merle",
     ar: 1111,
-    
+    kep:"../public/mokus.jpg"
   },
   {
     id:2,
     cim:"Védett férfiak",
     szerzo:"Robert Merle",
     ar: 2111,
-    
+    kep:"../public/mokus.jpg"
   },
   {
     id:3,
     cim:"Állati elmék",
     szerzo:"Robert Merle",
     ar: 3112,
-    
+    kep:"../public/mokus.jpg"
   }
 ]
 
