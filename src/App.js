@@ -1,5 +1,8 @@
 import './App.css';
 import Konyv from './Konyv';
+import React from 'react';
+
+//import kep from 'kepek/mokus.jpg'
 
 const Konyveim = [
   {
@@ -7,21 +10,21 @@ const Konyveim = [
     cim:"Malveil",
     szerzo:"Robert Merle",
     ar: 1111,
-    kep:"../public/mokus.jpg"
+    kep: "https://www.haziallat.hu/upload/4/article/1655/lama_csiko.jpg"
   },
   {
     id:2,
     cim:"Védett férfiak",
     szerzo:"Robert Merle",
     ar: 2111,
-    kep:"../public/mokus.jpg"
+    kep: "https://www.haziallat.hu/egzotikus-fajok/a-lama/3749/2/lama-az-andokban.jpg"
   },
   {
     id:3,
     cim:"Állati elmék",
     szerzo:"Robert Merle",
     ar: 3112,
-    kep:"../public/mokus.jpg"
+    kep: "https://www.haziallat.hu/allat-es-ember/a-lama-kopni-fog-/1655/1/lama-lama-glama-sherpa.jpg"
   }
 ]
 
