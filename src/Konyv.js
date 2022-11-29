@@ -1,11 +1,13 @@
 import './konyv.css';
-import React, { Component }  from 'react';
+import React from 'react';
+import Kosar from './Kosar';
 
 function Konyv(props) {
 
-    function kosarba() {
+    function kosarFeldolgoz() {
         console.log(props.konyvAdat.id)
-        props.kosarKattintasMetodus(props.konyvAdat.id)
+        props.kosarFeldolgoz(props.konyvAdat)
+        Kosar.kosarba(props.konyvAdat);
     }
 
     return(
@@ -17,9 +19,11 @@ function Konyv(props) {
             <br></br>
             <span>Ár: {props.konyvAdat.ar} FT </span>
             <br></br>
-            <button onClick={kosarba}>Kosárba</button>
+            <button className="btn btn-dark" onClick={kosarFeldolgoz}>Kosárba</button>
         </div>
     );
 }
+
+
 
 export default Konyv;
